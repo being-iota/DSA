@@ -13,7 +13,7 @@ int main()
 
     quotient = firstnum / secondnum;
     remainder = firstnum % secondnum;
-    cout << firstnum << "/" << secondnum << "=" << quotient << " with a remainder of " << remainder;
+    cout << firstnum << "/" << secondnum << "=" << quotient << " with remainder" << remainder;
 
     return 0;
 }
