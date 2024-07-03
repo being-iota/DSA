@@ -9,7 +9,7 @@ public:
         for (int i = 0; i < nums.size(); ++i) {
             int complement = target - nums[i];
             if (numMap.find(complement) != numMap.end()) {
-                // Ensure smaller index comes first
+                
                 result.push_back(numMap[complement]);
                 result.push_back(i);
                 break;
